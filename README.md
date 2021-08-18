@@ -1,4 +1,4 @@
-# DQNs for Predator Prey
+# Deep Q-Learning for Predator Prey
 Implementation of the predator prey multi-agent environment and independent DQNs.
 
 <a href="#"><img src="./images/5x5-visualization.gif" width="240"/></a>
