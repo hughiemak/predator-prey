@@ -11,7 +11,7 @@ Environment description: A toroidal grid world in which 4 predators (blue agents
 
 `python train.py --cuda --size n --writer log-directory --save model-directory`
 
-`log-directory` and `model-directory` will be created in /models and /runs respectively.
+`log-directory` and `model-directory` will be created in ./runs and ./models respectively.
 
 ### To view training results 
 
