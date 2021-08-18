@@ -1,8 +1,7 @@
 # Predator Prey with Independent DQNs
-
-![image info](./images/5x5-visualization.gif)
-
 Implementation of the multi-agent environment, predator prey, and independent DQNs
+
+<img src="./images/5x5-visualization.gif" width="240"/>
 
 To train a model for nxn predator prey
 
