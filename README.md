@@ -3,6 +3,9 @@ Implementation of the multi-agent environment, predator prey, and independent DQ
 
 <a href="#"><img src="./images/5x5-visualization.gif" width="240"/></a>
 
+### Environment description
+A toroidal grid world in which 4 predators (blue agents) learn to catch a randomly moving prey (red) for a shared reward of 100 in 100 time steps.
+
 ### To train a model for nxn predator prey
 
 `python train.py --cuda --size n --writer log-directory --save model-directory`
