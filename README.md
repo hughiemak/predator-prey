@@ -23,7 +23,7 @@ Environment description: A toroidal grid world in which 4 predators (blue agents
 1. median catch time against episode
 1. success rate against episode
 
-(Evaluation is carried out every 50 training episodes by averaging the performance of the agent on 100 testing episodes)
+(Evaluation is carried out every 50 training episodes by averaging the performance of the models on 100 testing episodes)
 
 ### Training result of 5x5 predator prey
 
