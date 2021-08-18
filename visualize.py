@@ -87,7 +87,7 @@ def visualize():
 		    im = ax.imshow(processed_state(states[i]), cmap=my_cmap)
 
 		ani = animation.FuncAnimation(fig,animate, frames=len(states), interval=200, blit=False, repeat=False)
-		# ani.save('im.gif', writer='imagemagick', fps=2)
+		# ani.save('./images/5x5-visualization.gif', writer='imagemagick', fps=2)
 		plt.show()
 
 	animate(states, env.n_predators)

@@ -1,4 +1,7 @@
 # Predator Prey with Independent DQNs
+
+![image info](./images/5x5-visualization.png)
+
 Implementation of the multi-agent environment, predator prey, and independent DQNs
 
 To train a model for nxn predator prey
@@ -19,7 +22,8 @@ Types of training results
 
 (Evaluation is carried out every 50 training episodes)
 
-Training results of 5x5
+Training results of 5x5 predator prey
+
 ![image info](./images/5x5-mean.png)
 ![image info](./images/5x5-median.png)
 ![image info](./images/5x5-success-rate.png)
