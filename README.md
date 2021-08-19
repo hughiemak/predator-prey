@@ -17,11 +17,11 @@ Environment description: A toroidal gridworld in which 4 predators (blue agents)
 
 `tensorboard --logdir="runs"`
 
-### Types of training result
+### Metrics
 
-1. mean catch time against episode
-1. median catch time against episode
-1. success rate against episode
+1. mean catch time
+1. median catch time
+1. success rate (no. of successful episodes divided by no. of episodes)
 
 (Evaluation is carried out every 50 training episodes by averaging the performance of the models on 100 testing episodes)
 
