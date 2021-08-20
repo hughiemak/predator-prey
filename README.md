@@ -3,7 +3,7 @@ Implementation of the predator prey multi-agent environment and independent DQNs
 
 <a href="#"><img src="./images/5x5-visualization.gif" width="240"/></a>
 
-Environment description: A toroidal gridworld in which 4 predators (blue agents) have to capture a randomly moving prey (red) for a shared reward in 100 time steps.
+> A toroidal gridworld in which 4 predators (blue agents) have to capture a randomly moving prey (red) for a shared reward in 100 time steps.
 
 *Dependency: PyTorch 1.5.0, tensorboardX*
 
