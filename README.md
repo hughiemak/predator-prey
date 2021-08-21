@@ -25,7 +25,7 @@ Implementation of the predator prey multi-agent environment and independent DQNs
 
 (Evaluation is carried out every 50 training episodes by averaging the performance of the models on 100 testing episodes)
 
-### Training result of 5x5 predator prey
+### Training results of 5x5 predator prey
 
 ![image info](./images/5x5-mean.png)
 ![image info](./images/5x5-median.png)
