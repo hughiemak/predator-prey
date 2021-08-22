@@ -9,13 +9,17 @@ Implementation of the predator prey multi-agent environment and independent DQNs
 
 ## To train a model for nxn predator prey
 
-`python train.py --cuda --size n --writer log-directory --save model-directory`
+```
+python train.py --cuda --size n --writer log-directory --save model-directory
+```
 
 `log-directory` and `model-directory` will be created in ./runs and ./models respectively.
 
 ## To view training results 
 
-`tensorboard --logdir="runs"`
+```
+tensorboard --logdir="runs"
+```
 
 ## Metrics
 
@@ -33,4 +37,6 @@ Implementation of the predator prey multi-agent environment and independent DQNs
 
 ## To visualize the trained models in models/5x5
 
-`python visualize.py --size 5 --model models/5x5`
+```
+python visualize.py --size 5 --model models/5x5
+```
