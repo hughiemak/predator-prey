@@ -5,7 +5,10 @@ Implementation of the predator prey multi-agent environment and independent DQNs
 
 > A toroidal gridworld in which 4 predators (blue agents) have to capture a randomly moving prey (red) for a shared reward in 100 time steps.
 
-*Dependency: PyTorch 1.5.0, tensorboardX*
+## Dependencies
+
+* PyTorch 1.5.0
+* tensorboardX
 
 ## To train a model for nxn predator prey
 
